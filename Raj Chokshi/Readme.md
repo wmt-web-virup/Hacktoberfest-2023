@@ -1,0 +1,3 @@
+- ## Q. Find second largest number in an array?
+- ## Q. Given a string, reverse each word in the sentence.
+- ## Q. Write a function to suffle the array.

@@ -1,0 +1,1 @@
+- ## Q. Compatibility Testing challenges with Multiple devices.

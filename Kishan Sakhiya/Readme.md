@@ -1,0 +1,3 @@
+- ## Q. How do you find min and max values without Math functions?.
+- ## Q. Program to check if a vowel is present in the string?.
+- ## Q. Convert a number into a Roman Numeral.

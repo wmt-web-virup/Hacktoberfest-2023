@@ -1,0 +1,1 @@
+- ## Q. Write a blog on parallel Automation testing.
