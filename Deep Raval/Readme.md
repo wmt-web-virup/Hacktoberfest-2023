@@ -1,1 +1,3 @@
-- ## Q. .
+- ## Q. "find the top two maximum number in an array"
+- ## Q. Write a program to convert given the number of days into months and days. (For the sake of simplicity, assume that each month contains 30 days).
+- ## Q. Write a program to check if the given number is Armstrong or not.

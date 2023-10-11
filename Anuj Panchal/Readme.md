@@ -1,1 +1,3 @@
-- ## Q. .
+- ## Q. Delete the repeated elements in an integer array
+- ## Q. Determine the largest and the smallest element of an array which is not sorted.
+- ## Q. Implement the insertion sort algorithm.

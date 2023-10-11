@@ -1,1 +1,3 @@
-- ## Q. .
+- ## Q. Calculate the number of numerical digits in a string.
+- ## Q. Compute the first character of a string that is not repeated.
+- ## Q. search a missing number in an array that contains integers from 1 to 100.

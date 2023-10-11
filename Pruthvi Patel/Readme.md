@@ -1,1 +1,3 @@
-- ## Q. .
+- ## Q. Solve problem of sorting using quick sort algorithm.
+- ## Q. Find the shortest path using dijkstra's algorithm.
+- ## Q. Make a demo of tic tac toe game.
