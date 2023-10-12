@@ -1,1 +1,1 @@
-- ## Q. .
+- ## Q. Write Blog on Client relationship management.
