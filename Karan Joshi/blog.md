@@ -31,3 +31,26 @@ Execute test cases systematically, recording results and any defects discovered.
 ## 8 Regression Testing:
 
 Regularly perform regression testing to ensure that new code changes do not introduce unintended side effects in existing functionality.
+
+## 9 Exploratory Testing:
+
+Combine scripted testing with exploratory testing to uncover unanticipated issues and provide a fresh perspective.
+
+## 10 Defect Reporting:
+
+Report defects with detailed information, including steps to reproduce, environment details, and severity assessments.
+
+## 11 Collaboration:
+
+Collaborate closely with developers, product owners, and other team members to address issues and improve the software's quality.
+
+## 12 Documentation:
+
+Maintain clear and up-to-date documentation for test cases, test plans, and any testing-related processes.
+## 13 Automation Selection:
+
+Identify opportunities for test automation, especially for repetitive and time-consuming test cases. Prioritize automation based on ROI.
+
+## 14 Continuous Learning:
+
+Stay updated with industry trends, new testing techniques, and tools to improve your manual QA skills.
