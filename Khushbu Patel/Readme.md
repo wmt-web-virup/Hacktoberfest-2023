@@ -62,4 +62,83 @@ But, you must be wondering, we can just copy and paste data right from the websi
 
   
 
+Enough of theory. Let’s get to the practical part…
 
+  
+
+### Requirements import
+
+> from  time  import  sleep
+> 
+> from  selenium  import  webdriver
+> 
+> from  selenium.webdriver.chrome.service  import  Service
+> 
+> from  selenium.webdriver.common.by  import  By
+> 
+> from  webdriver_manager.chrome  import  ChromeDriverManager
+
+  
+
+### Automatically installs the Chrome driver according to your browser
+
+> driver =
+> webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+
+  
+
+#### Output to CSV
+
+    with  open("Output.csv", "w") as  writer:
+
+### Open IMDB Top 250 page
+
+     driver.get("https://www.imdb.com/chart/top")
+
+  
+
+### Find all movie titles and ratings using Selenium
+
+    movie_titles = driver.find_elements(
+    
+    By.XPATH, "//td[@class='titleColumn']/a")
+    
+    movie_ratings = driver.find_elements(
+    
+    By.XPATH, "//td[@class='ratingColumn imdbRating']/strong")
+
+  
+
+# Extract the text from the elements
+
+    titles = [title.text  for  title  in  movie_titles]
+    
+    ratings = [rating.text  for  rating  in  movie_ratings]
+
+  
+
+# Print the movie titles and ratings
+
+    for  i  in  range(len(titles)):
+    
+    print("Movie:", titles[i])
+    
+    print("Rating:", ratings[i])
+    
+    print()
+    
+    sb = []
+    
+    sb.append(titles[i])
+    
+    sb.append(',')
+    
+    sb.append(ratings[i])
+    
+    sb.append('\n')
+    
+    writer.write("".join(sb))
+
+  
+
+  
