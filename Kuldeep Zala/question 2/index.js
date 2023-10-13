@@ -2,7 +2,9 @@
 // palindrome, and false otherwise.
 // Input: x = 121
 // Output: true
-// Explanation: 121 reads as 121 from left to right and from right to left."function isPalindrome(x) {
+// Explanation: 121 reads as 121 from left to right and from right to left.
+
+function isPalindrome(x) {
     if (x < 0) {
         return false;
     }
