@@ -73,3 +73,47 @@ Playwright's APIs for interacting with web pages are more user-friendly and prov
 ### 5. Network Interception
 
 The ability to intercept network requests and customize responses is a unique feature that sets Playwright apart from many other automation tools.
+
+## Coding Examples: Creating Tests from a CSV File
+
+Let's walk through an example of how to create tests using Playwright and data from a CSV file. In this example, we'll create a test that automates the login process for a web application using Playwright and data from a CSV file.
+
+First, you need to install Playwright in your Node.js project:
+	
+		npm install playwright
+
+
+here s the example of creating test in csv in playwright.
+
+	
+	const { chromium } = require('playwright');
+	const fs = require('fs');
+
+	(async () => {
+	  const browser = await chromium.launch();
+	  const context = await browser.newContext();
+	  const page = await context.newPage();
+
+	  // Read data from a CSV file
+	  const data = fs.readFileSync('login_data.csv', 'utf8');
+	  const lines = data.split('\n');
+
+	  for (const line of lines) {
+		const [username, password] = line.split(',');
+
+		// Navigate to the login page
+		await page.goto('https://example.com/login');
+
+		// Fill in and submit the login form
+		await page.fill('#username', username);
+		await page.fill('#password', password);
+		await page.click('#login-button');
+
+		// Add your assertions here to check if the login was successful
+	  }
+
+	  await browser.close();
+	})();
+
+
+
