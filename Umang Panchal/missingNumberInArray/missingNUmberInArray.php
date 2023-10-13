@@ -9,17 +9,14 @@ function findMissingNumber($array)
 
     $n = count($array);
 
-    // Calculate the sum of the expected numbers from 1 to 100
     for ($i = 1; $i <= 100; $i++) {
         $expectedSum += $i;
     }
 
-    // Calculate the sum of the actual numbers in the array
     foreach ($array as $num) {
         $actualSum += $num;
     }
 
-    // The missing number is the difference between the expected and actual sums
     $missingNumber = $expectedSum - $actualSum;
 
     return $missingNumber;
