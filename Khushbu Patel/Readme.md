@@ -141,4 +141,98 @@ Enough of theory. Let’s get to the practical part…
 
   
 
+ #### To Run the script:  
   
+
+-   Save the file with the name of your choice
+    
+-   Open cmd/terminal and head to the directory where your project is located
+    
+-   Then Run the command:- python3 [name_of_your_file].py  
+      
+    
+
+  
+And boom.., if you have configured everything correctly, you will get the output below :  
+  
+
+  
+
+![](https://lh5.googleusercontent.com/z8yLdmNNe20BFLEnZFiG_xGzlLOAxF4iNJlvpjhltYj4QBBOXfGPCiz-UA_WnwvIJ3YFNy2vp0IKBrRpV3_-PH_f3IWzp28gDjWouhAlpVlOluBorr0QDPXWJnt6udwkS7xUg8jqDvM3kPJspJvSI60)
+
+  
+  
+  
+  
+  
+  
+
+![](https://lh6.googleusercontent.com/2JwhZiy2r_aSXN4YoLxNuL0ZPMflewb02g_DOrFmHUxW799Cic50VB6a-g7lr-aAR6117VPETOx7klbopBSRhIvUlIYoa-Oqd1pZlEHETDtFPj5Sn0lXZPuvvvmfvoN57P5lcTOX5fOeaMddbtZLH5w)
+
+(Outputted CSV)
+
+  
+
+You might be curious about these intriguing terms: XPATH and find_elements. Let me shed some light on them for you.
+
+  
+
+-   find_elements: It is an inbuilt method in the selenium library. Its purpose is to locate multiple elements on the webpage based on a given specific criteria.
+    
+
+  
+
+-   Commonly used criteria with which the find_elements method is often used are:
+    
+
+  
+
+1.  By.ID: Locates element using “ID” attribute.
+    
+2.  By. CLASS_NAME : Locates element using “CLASS_NAME” attribute
+    
+3.  By.NAME: Locates element using “NAME” attribute
+    
+4.  By.TAG_NAME: Locates element using “HTML TAG NAME” attribute
+    
+5.  By.CSS_SELECTOR: Locates element using “CSS SELECTOR” expression
+    
+6.  By.XPATH: Locates element using “XPATH” expression.
+    
+
+  
+  
+
+Now, as we have a basic idea about find_elements, at this point you might be wondering, what are these criteria and this weird string: " //td[@class='titleColumn']/a" which was just mentioned in the code. Don’t worry, let’s get a ride together on this magical journey!!!
+
+  
+
+Let's first have a look at how can we get the “wierd_string”. Let's understand this through the IMDB example mentioned above.
+
+  
+
+-   Our objective is to extract the movie titles and ratings. To begin, we need to locate the HTML tag that contains the movie names and ratings. To achieve it, we need to open the Elements in Developers Tools and then, hovering over the needed tag, right-click the tag in the Element section(as shown) and hover on copy from context-menu, you can select the required criteria(as shown in the below screenshot) and have the necessary element(“wierd_string”) extracted.
+    
+
+  
+
+![](https://lh6.googleusercontent.com/fp1s4-dHow1w8xtUbEF9jIew3BOIj31U4OsArvxNcsEfMiIA2lK89NT4SsQddguy_0iM2VsNoHzVCTbOP81lO1_okujFBr056sPTn0ySugrfC-Cc_8Tu2ya1nBAVmePfPm8Achu9TGhsul2EjrleVVY)
+
+  
+  
+
+The next steps are pretty self-explanatory. If you have some familiarity with Python, you can easily go with the flow. I hope you have got some idea regarding the Scrapping using Python-Selenium.
+
+  
+
+### Conclusion :
+
+With Python's simplicity and versatility, even individuals with limited programming experience can quickly learn to create web automation scripts. There are ample resources for learning and troubleshooting thanks to its rich ecosystem and extensive community support.
+
+  
+
+However, it's important to note that web automation should be used responsibly and within legal boundaries. It's essential to respect website terms of service, robots.txt files, and any applicable laws or regulations. Additionally, websites may implement measures to prevent automation, so it's crucial to be mindful of any limitations or restrictions imposed by the target website.
+
+ 
+In conclusion, web automation using Python is a valuable skill that empowers us to automate repetitive tasks on the web. As a result, it reduces time, increases efficiency, and opens up possibilities for a variety of applications. We can simplify our work and boost our productivity by using Python's libraries and tools.
+ 
