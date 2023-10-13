@@ -7,5 +7,4 @@ preg_match_all($pattern, $inputString, $matches);
 
 $numDigits = count($matches[0]);
 
-echo "Number of numerical digits in the string: " . $numDigits;
-?>
+echo "Number of numerical digits in the string:    " . $numDigits;
