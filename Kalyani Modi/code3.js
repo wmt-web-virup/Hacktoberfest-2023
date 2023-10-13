@@ -10,9 +10,9 @@ function decimalToBinary(decimal) {
     binary = (decimal % 2) + binary;
     decimal = Math.floor(decimal / 2);
   }
-
   return binary;
 }
+
 
 const decimalNumber = 42; // Replace with your desired decimal number
 const binaryRepresentation = decimalToBinary(decimalNumber);
