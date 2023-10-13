@@ -17,3 +17,25 @@ a. **Test Planning**: Start by creating a mind map of the application, breaking 
 b. **Test Execution**: As you navigate through the application, use the mind map to track your testing progress. You can create sub-maps for specific features or user flows. This helps testers stay organized and ensures comprehensive coverage.
 
 c. **Bug Reporting**: When you discover defects or issues, use the mind map to link them to the relevant parts of the application. This makes it easier to communicate findings with developers and stakeholders.
+
+**2.  Session-Based Testing**
+
+Session-based testing is a structured approach to exploratory testing. It involves dividing testing into focused time-limited sessions. Here's how to implement session-based testing effectively:
+
+a. **Session Planning**: Before starting a testing session, set specific goals and objectives. Define the scope of the session, including what features or areas you intend to explore and the time allotted.
+
+b. **Exploration**: During the session, testers explore the application, document their findings, and look for defects. The time constraint helps maintain focus and ensures thorough testing.
+
+c. **Debriefing**: At the end of each session, conduct a debriefing meeting to discuss the findings and share insights. This allows testers to collaborate, learn from each other, and prioritize issues.
+
+d. **Reporting**: After completing all sessions, compile a report summarizing the testing efforts, defects found, and overall observations. This provides stakeholders with a clear picture of the testing process and results.
+
+**3.  Heuristics**
+
+Heuristics are rules of thumb or problem-solving techniques that testers can use to guide their testing efforts. These serve as valuable aids in exploratory testing:
+
+a. **Consistency Heuristic**: This heuristic suggests that testers should look for inconsistencies in the application. For example, if a button's label does not match its functionality, it might indicate a problem.
+
+b. **Bounded Variation Heuristic**: Testers should look for variations or edge cases that might lead to defects. For example, testing an e-commerce site with an unusually large order might uncover issues in the shopping cart functionality.
+
+c. **Exploratory Testing Heuristic Cheat Sheet**: There are various heuristic cheat sheets available that provide testers with a quick reference for exploring different aspects of an application. These can be a valuable resource during testing.
