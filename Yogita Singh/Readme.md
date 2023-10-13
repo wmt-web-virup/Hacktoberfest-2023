@@ -30,3 +30,19 @@ Parallel testing has become an indispensable strategy in the modern software tes
 		</plugins>
 </build>
 ```
+###2. Configuring WebDriver for Parallel Execution:
+Parallel execution demands each test to have its unique WebDriver instance. Achieve this using ThreadLocal:
+```java
+public class DriverFactory {
+    private static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
+
+    public static WebDriver getDriver() {
+        return driver.get();
+    }
+
+    public static void setWebDriver(WebDriver driverParm) {
+        driver.set(driverParm);
+    }
+}
+```
+
