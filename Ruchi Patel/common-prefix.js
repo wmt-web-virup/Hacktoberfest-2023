@@ -1,3 +1,5 @@
+// "Write a function to find the longest common prefix of an array of strings.
+
 let inputString = ["flower", "flour", "flourish"];
 
 function CommonPrefix(stringArr){

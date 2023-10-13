@@ -1,3 +1,5 @@
+// "Create a function to find the first non-repeating character in a string.
+
 function nonRepeatingCharater(string){
 
     const count = {};
