@@ -115,5 +115,26 @@ here s the example of creating test in csv in playwright.
 	  await browser.close();
 	})();
 
+## Coding Examples:Taking Screenshots
+
+This Playwright script navigates to a website and captures a screenshot of the page. It demonstrates Playwright's ability to take screenshots of web pages.
+
+	const { chromium } = require('playwright');
+
+	(async () => {
+	const browser = await chromium.launch();
+	const page = await browser.newPage();
+
+	// Navigate to a website
+	await page.goto('https://example.com');
+
+	// Take a screenshot and save it to a file
+	await page.screenshot({ path: 'screenshot.png' });
+
+	await browser.close();
+	})();
+
+
+
 
 
