@@ -9,3 +9,5 @@
 	We need a 50 Rs note and a 20 Rs note."
 	
 - ## Q. Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
+
+- ## Q. Print all prime number, which value is lower than given number.
